@@ -1,0 +1,18 @@
+[package]
+name = "rocket-opentelemetry-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hostname = "0.4.0"
+opentelemetry = { version = "0.29", features = ["metrics", "trace", "logs"] }
+opentelemetry-appender-tracing = "0.29"
+opentelemetry-otlp = { version = "0.29", features = ["metrics", "trace", "logs", "grpc-tonic"] }
+opentelemetry_sdk = "0.29"
+reqwest = "0.12"
+rocket = "0.5"
+tokio = { version = "1.44", features = ["full"] }
+tracing = "0.1"
+tracing-appender = "0.2"
+tracing-opentelemetry = "0.30"
+tracing-subscriber = { version = "0.3", features = ["chrono", "env-filter"] }
