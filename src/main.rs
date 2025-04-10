@@ -6,12 +6,14 @@ use tracing::{instrument, Instrument};
 
 #[instrument]
 async fn func1() -> String {
+    tracing::info!("enter func1");
     tokio::time::sleep(std::time::Duration::from_millis(233)).await;
     "hello".into()
 }
 
 #[instrument]
 async fn func2() -> String {
+    tracing::info!("enter func2");
     tokio::time::sleep(std::time::Duration::from_millis(666)).await;
     "world".into()
 }
