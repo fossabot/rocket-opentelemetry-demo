@@ -1,6 +1,7 @@
 # rocket-opentelemetry-demo
 
 [![Rust](https://github.com/SF-Zhou/rocket-opentelemetry-demo/actions/workflows/rust.yml/badge.svg)](https://github.com/SF-Zhou/rocket-opentelemetry-demo/actions/workflows/rust.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSF-Zhou%2Frocket-opentelemetry-demo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSF-Zhou%2Frocket-opentelemetry-demo?ref=badge_shield)
 
 ### 1. Setup SigNoz
 
@@ -27,3 +28,7 @@ curl http://127.0.0.1:8000
 ```
 
 ![SigNoz tracing demo](./images/signoz.png)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSF-Zhou%2Frocket-opentelemetry-demo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSF-Zhou%2Frocket-opentelemetry-demo?ref=badge_large)
